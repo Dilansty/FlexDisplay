@@ -16,42 +16,52 @@ main {
 
 }
 
-.linhas {
+.tela {
     height: 1080px;
     width: 1920px;
 }
 
-.linha {
+.linhas {
     display: flex;
     width: 100%;
     height: 216px;
 }
 
-.avatar {
+.formas {
     display: flex;
     height: 116px;
     width: 116px;
     border-radius: 1000px;
 }
 
-.L1 {
+.Linha1 {
     gap: 10px;
     align-items: end;
     justify-content: end;
-    background-color: rgb(230 228 245);
+    background-color: #e6e4f5;
 }
 
-.L2 {
+.Linha2 {
     gap: 10px;
     align-items: center;
     justify-content: end;
     background-color: #d9f5c7;
 }
-
-.B1 {
-    background-color: rgb(167 161 213);
+.Linha3 {
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8e3e4;
 }
 
-.B2 {
+.Bolas1 {
+    background-color: #a7a1d5;
+}
+
+.Bolas2 {
     background-color: #7aab5b;
+}
+
+.Bolas3 {
+    background-color: #c87579;
 }
